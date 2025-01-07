@@ -34,7 +34,9 @@ const companies = [
 const App = () => {
   return (
     <div className="flex flex-col justify-center items-center w-full overflow-x-hidden">
-      <Navbar logo={zysk} menuItems={menuItems} profileImage={profile} />
+      <div className="w-full flex justify-center items-center">
+        <Navbar logo={zysk} menuItems={menuItems} profileImage={profile} />
+      </div>
 
       <div className="pt-16 md:pt-24 flex flex-col justify-center items-center w-full px-4">
         <div className="w-full max-w-[1280px] flex flex-col justify-center items-center text-center px-4 md:px-8 gap-8">

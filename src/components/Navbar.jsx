@@ -4,8 +4,7 @@ const Navbar = ({ logo, menuItems, profileImage }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="text-[#475467] w-full text-md font-semibold px-8 md:px-32 border-b-[1px] py-4 flex items-center justify-between border-b-[#F2F4F7]">
-      {/* Left Section: Logo and Menu */}
+    <header className="text-[#475467] w-full md:max-w-[1280px] text-md font-semibold px-8 md:px-[32px] border-b-[1px] py-4 flex items-center justify-between border-b-[#F2F4F7]">
       <div className="flex items-center space-x-4">
         <img src={logo} alt="Logo" className="h-8" />
         <nav className="hidden md:flex space-x-4">
