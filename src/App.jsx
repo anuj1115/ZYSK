@@ -74,7 +74,7 @@ const App = () => {
         </div>
       </div>
 
-      <div className="flex justify-center items-center w-full py-[48px] md:py-[96px] px-4">
+      <div className="flex justify-center items-center w-full md:w-[1280px] py-[48px] md:py-[96px] px-4">
         <CompanyLogos companies={companies} />
       </div>
 
