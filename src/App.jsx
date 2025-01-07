@@ -38,7 +38,7 @@ const App = () => {
         <Navbar logo={zysk} menuItems={menuItems} profileImage={profile} />
       </div>
 
-      <div className="pt-16 md:pt-24 flex flex-col justify-center items-center w-full px-4">
+      <div className="pt-[64px] md:pt-[96px] flex flex-col justify-center items-center w-full px-4">
         <div className="w-full max-w-[1280px] flex flex-col justify-center items-center text-center px-4 md:px-8 gap-8">
           <button className=" flex flex-row flex-nowrap items-center gap-2 rounded-full bg-red-50 px-3 py-1 border border-red-300">
             <span className="text-red-500 text-[12px] md:text-sm font-medium rounded-full bg-red-50 border border-red-400 px-2 py-0.5">
@@ -67,11 +67,11 @@ const App = () => {
             </button>
           </div>
         </div>
-        <div className="w-full max-w-[1216px] md:h-[560px] flex justify-center items-center overflow-hidden border-[#101828] border-4 md:border-8 rounded-lg md:border-b-0 mt-8">
+        <div className="w-full md:max-w-[1280px] md:h-[560px] flex justify-center items-center overflow-hidden border-[#101828] border-4 md:border-8 rounded-lg md:border-b-0 mt-8">
           <img
             src={image1}
             alt="Feature"
-            className="w-full h-auto md:max-w-[1216px] md:h-[560px]"
+            className="w-full h-auto md:max-w-[1280px] md:h-[810px]"
           />
         </div>
       </div>
