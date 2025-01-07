@@ -32,9 +32,7 @@ const Navbar = ({ logo, menuItems, profileImage }) => {
         </nav>
       </div>
 
-      {/* Right Section: Profile or Burger Menu */}
       <div className="md:hidden">
-        {/* Burger Icon */}
         <button
           onClick={() => setIsMenuOpen(!isMenuOpen)}
           className="focus:outline-none"
@@ -56,7 +54,6 @@ const Navbar = ({ logo, menuItems, profileImage }) => {
         </button>
       </div>
 
-      {/* Profile Image (Hidden on Small Screens) */}
       <div className="hidden md:block">
         <img
           src={profileImage}
@@ -65,7 +62,6 @@ const Navbar = ({ logo, menuItems, profileImage }) => {
         />
       </div>
 
-      {/* Mobile Menu (Shown when burger is clicked) */}
       {isMenuOpen && (
         <div className="absolute top-16 left-0 w-full bg-white shadow-lg z-10 p-4 flex flex-col space-y-4">
           {menuItems.map((item) => (
